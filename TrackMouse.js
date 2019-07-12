@@ -40,10 +40,10 @@ export default function TrackMouse(eventBus, canvas) {
     updateHover(null);
   });
 
-  eventBus.on('element.mousemove', function(event) {
+  canvas._container.addEventListener('mousemove', function(event) {
     updatePosition({
-      x: event.originalEvent.offsetX,
-      y: event.originalEvent.offsetY
+      x: event.clientX,
+      y: event.clientY
     });
   });
 

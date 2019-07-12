@@ -1,6 +1,6 @@
 {
   "name": "@bpmn-io/track-mouse",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Track mouse position and hover state on a diagram",
   "main": "index.js",
   "scripts": {

@@ -2,19 +2,19 @@
 
 [![Build Status](https://travis-ci.com/bpmn-io/track-mouse.svg?branch=master)](https://travis-ci.com/bpmn-io/track-mouse)
 
-Track mouse position and hover state on a diagram
+Tracks the mouse on the diagram and periodically logs mouse position and hover state to the developer console.
 
 
 ## Usage
 
 ```javascript
-import Module from '@bpmn-io/track-mouse';
+import TrackMouseModule from '@bpmn-io/track-mouse';
 
 import BpmnViewer from 'bpmn-js';
 
 const viewer = new BpmnViewer({
   additionalModules: [
-    Module
+    TrackMouseModule
   ]
 });
 ```

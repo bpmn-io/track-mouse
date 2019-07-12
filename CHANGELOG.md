@@ -5,3 +5,7 @@ All notable changes to [@bpmn-io/track-mouse](https://github.com/bpmn-io/track-m
 ## Unreleased
 
 ___Note:__ Yet to be released changes appear here._
+
+## 0.0.1
+
+_Initial release._
